@@ -1,0 +1,20 @@
+<p id="res"></p>
+
+<div class="nodelete">
+    <a href="./">Retour</a>
+    <input type="text" name="" id="filename" placeholder="File name">
+    <input type="button" value="Check" onclick="start()">
+</div>
+
+<script src="js/checkDoubleId.js"></script>
+<script>
+    function start(){
+        var filename = document.getElementById("filename").value;
+        if(filename == ""){
+            alert("Please enter a file name");
+            return false;
+        }
+        document.getElementById('res').innerHTML = "checking...";
+        document.getElementById('res').innerHTML = checkDoubleId(filename);
+    }    
+</script>
