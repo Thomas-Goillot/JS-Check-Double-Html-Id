@@ -1,6 +1,6 @@
 # JS-Check-Double-html-Id
 
-> little script to check if there are double html id's in a html file. It will print out the double id's and the line number in the developer console.
+> Little script to check if there are double html id's in a html file. It will print out the double id's and the line number in the developer console.
 
 ## Usage
 
